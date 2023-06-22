@@ -4,7 +4,7 @@ function PortImg({ img, git, demo }) {
   return (
     <div className="portcontain">
       <img className="portpic" src={img} alt="pic" />
-      <div>
+      <div className="link-contain">
         <a className="portlinks" href={demo} target="_blank">
           Live demo
         </a>

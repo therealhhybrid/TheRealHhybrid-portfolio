@@ -23,7 +23,13 @@
 
 .portpic {
   width: 500px;
+  padding-left: 50px;
   margin-bottom: 15px;
+}
+
+.link-contain {
+  display: flex;
+  justify-content: center;
 }
 
 .portlinks {
