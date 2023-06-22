@@ -25,8 +25,17 @@ const Hero = () => {
             variants={fadeIn("left", "tween", 0.2, 1)}
             className="secondaryText"
           >
-            I design beautiful <br />
-            Websites, And I love what i do
+            I am a Front-End developer, <br />
+            My Mission is to collaborate with <br /> tech agencies here in
+            Nigeria and <br /> abroad to create <br />
+            high-performance,rich interactive websites
+            <br />
+            that work across all platforms.
+            <br />
+            <a className="hire-me" target="_blank" href="/Mohammed.pdf">
+              {" "}
+              View CV{" "}
+            </a>
           </motion.span>
         </div>
 

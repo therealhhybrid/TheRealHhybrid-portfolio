@@ -24,7 +24,7 @@ export const projectExperience = [
 
 export const WhatDoIHelp = [
   "In an increasingly online-based world, a business's web page serves as its first impression and initial point of contact with consumers, i would help by Optimizing the user experience, Creating tools that improve site interaction regardless of the browser.",
-  "Using HTML, JavaScript and CSS to bring concepts to life (React Libary)",
+  "My experience includes bringing the wireframes of the UX designer to life through HTML5 and CSS3, as well as working with React-JS and Next-JS to create a stellar finished product",
 ];
 
 export const workExp = [

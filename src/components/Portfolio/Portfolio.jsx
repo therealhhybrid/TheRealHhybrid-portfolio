@@ -2,6 +2,7 @@ import React from "react";
 import css from "./Portfolio.module.scss";
 import { motion } from "framer-motion";
 import { fadeIn, staggerChildren } from "../../utils/motion";
+import PortImg from "../PortImg";
 
 export const Portfolio = () => {
   return (
@@ -28,21 +29,26 @@ export const Portfolio = () => {
         {/* images */}
 
         <div className={`flexCenter ${css.showCase}`}>
-          <motion.img
+          <motion.div variants={fadeIn("up", "tween", 0.7, 0.6)}>
+            <PortImg
+              img="./imagery.PNG"
+              git="https://github.com/therealhhybrid/Next-Js-Image-Gallery"
+              demo="https://nextjs-13-4-image-gallery-therealhhybrid.vercel.app/"
+            />
+          </motion.div>
+          <motion.div variants={fadeIn("up", "tween", 0.7, 0.6)}>
+            <PortImg
+              img="./ecomm.PNG"
+              git="https://github.com/therealhhybrid/ecommerce-next-demo"
+              demo="https://ecommerce-app-demo-therealhhybrid.vercel.app/"
+            />
+          </motion.div>
+
+          {/* <motion.img
             variants={fadeIn("up", "tween", 0.5, 0.6)}
-            src="./showCase1.png"
+            src="./imagery.PNG"
             alt="project"
-          />
-          <motion.img
-            variants={fadeIn("up", "tween", 0.7, 0.6)}
-            src="./showCase2.png"
-            alt="project"
-          />
-          <motion.img
-            variants={fadeIn("up", "tween", 0.8, 0.6)}
-            src="./showCase3.png"
-            alt="project"
-          />
+          /> */}
         </div>
       </div>
     </motion.section>

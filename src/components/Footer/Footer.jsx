@@ -2,6 +2,7 @@ import React from "react";
 import css from "./Footer.module.scss";
 import { motion } from "framer-motion";
 import { footerVariants, staggerChildren } from "../../utils/motion";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -38,6 +39,18 @@ const Footer = () => {
             <li> Notes</li>
             <li> Experience</li>
           </div> */}
+          <div className="css-icon">
+            <a href="https://github.com/therealhhybrid" target="_blank">
+              <FaGithub />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/mohammed-dolapo-abiola/"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </a>
+          </div>
         </div>
       </motion.div>
     </motion.section>
