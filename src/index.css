@@ -10,6 +10,10 @@
   color: rgb(195, 127, 254);
 }
 
+/* .port-main-div {
+  background-color: slateblue;
+} */
+
 .portimg {
   display: flex;
   flex-direction: column;
@@ -19,17 +23,32 @@
 .portcontain {
   display: flex;
   flex-direction: column;
+  background-color: rgba(107, 135, 135, 0.512);
+  margin: 10px;
+  padding: 10px;
 }
 
 .portpic {
   width: 500px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   margin-bottom: 15px;
 }
 
 .link-contain {
   display: flex;
   justify-content: center;
+}
+.title {
+  text-align: center;
+  font-size: 12px;
+  background: linear-gradient(to right, #ba45be75, #bbbbbb);
+}
+
+.abt-port {
+  width: 500px;
+  padding-inline: 60px;
+  text-align: center;
+  line-height: 1.6;
 }
 
 .portlinks {

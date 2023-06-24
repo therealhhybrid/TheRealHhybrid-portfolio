@@ -29,18 +29,32 @@ export const Portfolio = () => {
         {/* images */}
 
         <div className={`flexCenter ${css.showCase}`}>
-          <motion.div variants={fadeIn("up", "tween", 0.7, 0.6)}>
+          <motion.div
+            className="port-main-div"
+            variants={fadeIn("up", "tween", 0.7, 0.6)}
+          >
             <PortImg
               img="./imagery.PNG"
               git="https://github.com/therealhhybrid/Next-Js-Image-Gallery"
               demo="https://nextjs-13-4-image-gallery-therealhhybrid.vercel.app/"
+              title=" Image Gallery"
+              desc=" This is an Image Gallery App that fetches image static and dynamic server-side rendering, incremental ,static regeneration,client-side rending,route handlers (API endpoints)
+              meta-data API
+              and more"
             />
           </motion.div>
-          <motion.div variants={fadeIn("up", "tween", 0.7, 0.6)}>
+          <motion.div
+            className="port-main-div"
+            variants={fadeIn("up", "tween", 0.7, 0.6)}
+          >
             <PortImg
               img="./ecomm.PNG"
               git="https://github.com/therealhhybrid/ecommerce-next-demo"
               demo="https://ecommerce-app-demo-therealhhybrid.vercel.app/"
+              title=" E-commerce"
+              desc="This is an e-commerce store with Next-js, implementing product
+              listing, intercepting router, dynamic routing, server-side rendering and API
+              integration."
             />
           </motion.div>
 

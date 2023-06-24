@@ -25,7 +25,7 @@ const Hero = () => {
             variants={fadeIn("left", "tween", 0.2, 1)}
             className="secondaryText"
           >
-            I am a Front-End developer, <br />
+            <strong>ABOUT ME:</strong> I am a Front-End web developer, <br />
             My Mission is to collaborate with <br /> tech agencies here in
             Nigeria and <br /> abroad to create <br />
             high-performance,rich interactive websites
@@ -34,7 +34,7 @@ const Hero = () => {
             <br />
             <a className="hire-me" target="_blank" href="/Mohammed.pdf">
               {" "}
-              View CV{" "}
+              My Resume{" "}
             </a>
           </motion.span>
         </div>
